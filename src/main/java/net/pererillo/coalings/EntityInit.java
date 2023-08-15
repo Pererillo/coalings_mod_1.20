@@ -13,7 +13,7 @@ public class EntityInit {
     public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, CoalingsMod.MOD_ID);
     public static final RegistryObject<EntityType<Coaling>> COALING = ENTITIES.register("coaling",
             ()-> EntityType.Builder.<Coaling>of(Coaling::new, MobCategory.MONSTER)
-                    .sized(0.8f,0.8f)
+                    .sized(0.6f,0.4f)
                     .build(new ResourceLocation(CoalingsMod.MOD_ID,"coaling").toString())
 
     );
